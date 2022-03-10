@@ -4,7 +4,7 @@ l = length(y);
 n = 1:l; 
 
 figure()
-plot(n,y, 'r');
+plot(n/Fs,y, 'r');
 ylabel('y(t)');
-xlabel('t');
+xlabel('t(in secs)');
 title('signal read from wav file');
