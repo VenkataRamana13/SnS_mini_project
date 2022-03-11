@@ -9,4 +9,8 @@ plot(y(1:3000,1));
 ylabel('y(t)');
 xlabel('t');
 title('The signal read from the csv file');
-%approximate period = 330 signals
+%approximate period = 330 samples
+%sampling rate = 44/0.122
+%time period = 330*(1/sampling_rate) = 0.915
+%heartrate = 0.915 * 60 = 54.9 bps
+%he is pretty chill!
